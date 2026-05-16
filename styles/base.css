@@ -1,0 +1,133 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+.site-header {
+  background: #1e3a8a;
+  color: white;
+  padding: 1.2rem 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.header-inner {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+#course-title {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* ===== NAV ===== */
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  background: rgba(255,255,255,0.15);
+  padding: 8px 14px;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.nav a:hover {
+  background: white;
+  color: #1e3a8a;
+  transform: translateY(-2px);
+}
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  color: #111827;
+}
+
+.hero p {
+  color: #4b5563;
+  margin-top: 5px;
+}
+
+/* ===== GRID ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* ===== CARDS ===== */
+.card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  background: #1e3a8a;
+  color: white;
+  padding: 12px;
+  font-size: 1.1rem;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.card p {
+  padding: 15px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  text-align: center;
+  background: #111827;
+  color: white;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
